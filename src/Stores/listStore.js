@@ -1,7 +1,7 @@
 import { observable } from "mobx";
 
 class ListStore {
-    @observable list = ["me","you","us"]
+    @observable list = []
 
     addItem(item){
         this.list.push(item)

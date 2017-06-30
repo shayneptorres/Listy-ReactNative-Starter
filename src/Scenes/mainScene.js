@@ -54,7 +54,7 @@ class MainScene extends Component {
                 <Form>
                     <Item last>
                         <Input
-                        ref={ (c) => this._input = c }
+                        getRef={(c) => this._inputDesc = c}
                         autoFocus
                         placeholder="Enter item name"
                         style={{color:"white"}}
